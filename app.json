@@ -1,0 +1,18 @@
+{
+    "name": "100ms node JS token server for management and authentication",
+    "description": "An example of a simple Node/Express server that generates tokens for Agora applications",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK1EcTRHnB2cvcYW5chnVzBB7EdLBHhJbRhKx5I6kAig&s",
+    "website": "https://www.100ms.live/",
+    "repository": "https://github.com/Sho-urya25/hms-nodejs-tokenserver",
+    "keywords": ["node", "express", "hms",  "token", "server"],
+    "env": {
+        "APP_ACCESS_KEY": {
+          "description": "get this keys from https://dashboard.100ms.live/developer",
+          "required": true
+        },
+        "APP_SECRET": {
+          "description": "get thi key from https://dashboard.100ms.live/developer",
+          "required": true
+        }
+      }
+  }

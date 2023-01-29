@@ -1,0 +1,4 @@
+create .env file and copy below code and replace your keys
+
+APP_ACCESS_KEY = 'your_access_key'
+APP_SECRET= 'your_secret_key'

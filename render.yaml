@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: hms token server
+    env: node
+    repo: https://github.com/Sho-urya25/hms-nodejs-tokenserver.git
+    rootDir: .
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: APP_ACCESS_KEY
+        sync: false
+      - key: APP_SECRET
+        sync: false

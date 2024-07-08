@@ -82,4 +82,4 @@ app.get("/test", (req, res) => {
 //     console.log(port);
 // });
 
-module.export.handler = serverless(app);
+module.exports.handler = serverless(app);
